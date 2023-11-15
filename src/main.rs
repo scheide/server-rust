@@ -3,7 +3,7 @@ use tide::Request;
 
 #[async_std::main]
 async fn main() -> tide::Result<()> {
-    println!("⚡️ Iniciando Server...");
+    println!("⚙️ Iniciando Server...");
 
     let mut app = tide::new();
 

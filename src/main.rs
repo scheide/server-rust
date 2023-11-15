@@ -12,9 +12,9 @@ async fn main() -> tide::Result<()> {
     app.at("/sub/:x/:y").get(sub);
 
     println!("✅ Servidor online");
-    println!("🔗 Access em: http://127.0.0.1:3003");
+    println!("🔗 Access em: http://0.0.0.0:3003");
 
-    app.listen("127.0.0.1:3003").await?;
+    app.listen("0.0.0.0:3003").await?;
     Ok(())
 }
 

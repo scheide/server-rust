@@ -1,2 +1,1 @@
 # Server Rust
-# server-rust
